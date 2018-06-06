@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title> TRIVIA </title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+
+  <body>
+
+
+<h1 id="welcome">BIENVENIDO A LA TRIVIA</h1>
+
+<!--<form action="/my-handling-form-page" method="post"> -->
+<section>
+
+
+    <div >
+      ¿Cual es tu Nombre?:<input type="text" id="name"> <br>
+      <button  type= "submit" onclick="saveName()">Enviar</button>
+    </div>
+
+    <p><center>Estas preparado...? Si estas listo, empieza a responder las preguntas de abajo. Si no, pulsa el boton.<p><br>
+      <button  type= "submit" onclick="endGame()">Jugar despues</button></center></p>
+</section>
+
+<div id = "content">
+    <div> Elige la respuesta correcta colocando el inciso en el recuadro y clickeando "Responder"</div><br><br>
+      <h3>Ciencia</h3>
+      <p><ol type="1">
+      <li>Cual es la formula quimica del agua?
+      <ol type="a">
+      <li> H<sub>2</sub>O<sub>2</sub>
+      <li> OH<sub>2</sub>O
+      <li> H<sub>2</sub>O
+      </ol><br>
+      <input type="text" id="answerOne"> <br>
+      <button type = "submit" onclick = "firstAnswer()">Responder</button><br><br>
+	     Respuesta... <span id = "firstResult"> </span><br><br>
+
+   <li>A que reino pertenecen los hongos?
+      <ol type="a">
+      <li> Fungi
+      <li> Protista
+      <li> Plantae
+      </ol><br>
+        <input type="text" id="answerTwo"><br>
+      <button type = "submit" onclick = "secondAnswer()">Responder</button><br><br>
+	Respuesta... <span id = "secondResult"> </span><br><br>
+
+   <li>De acuerdo a la escala de pH, de que color son los acidos?
+      <ol type="a">
+      <li> Verde
+      <li> Rojo
+      <li> Azul
+      </ol><br>
+        <input type="text" id="answerThree"> <br>
+      <button type = "submit" onclick = "thirdAnswer()">Responder</button><br><br>
+	Respuesta... <span id = "thirdResult"> </span><br>
+  </ol><br><br>
+  <span id = "finalScore">Esperando puntuacion final...</span></p></div>
+    </div>
+</div>
+<script src="app.js"></script>
+
+
+</body>
+
+</html>

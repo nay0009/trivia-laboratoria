@@ -1,0 +1,55 @@
+body {
+  background-image: url("sistemasolar1.jpg");
+  font-family: arial;
+  color: #FFFFF0
+}
+
+h1{
+background:black;
+  padding: 30px;
+  color:#FFFFF0;
+  border: 5px double white;
+  text-align: center;
+}
+
+div {
+background: #FFE4E1 ;
+color: black;
+display: inline-block;
+margin: 30px;
+border: 4px double  #DF01A5;
+font-family: monospace ;
+
+}
+h3{
+color:#DF01A5;
+font-family:fantasy px;
+}
+section {
+background: black;
+text-align: right;
+}
+#content{
+  background:  #FFFFF0;
+  border: 10px double #DF01A5;
+  padding: 8%;
+  display: block;
+  color: black;
+
+}
+
+#name{
+  padding: 10px;
+  border: 2px solid #DF01A5;
+  text-align: left;
+
+
+}
+input{
+  border: 2px double #DF01A5;
+  padding: 1%;
+}
+button {
+  color:#DF01A5;
+  border: 3px solid white;
+}
